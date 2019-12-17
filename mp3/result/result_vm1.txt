@@ -1,0 +1,8 @@
+At time:2018-10-29 21:41:43.898648 -0500 CDT$$ status of VM 0 changes from 1 to 0
+At time:2018-10-29 21:58:25.17263 -0500 CDT$$ status of VM 0 changes from 1 to 0
+At time:2018-10-29 22:02:19.409323 -0500 CDT$$ status of VM 0 changes from 1 to 0
+At time:2018-10-29 22:03:03.092 -0500 CDT$$ status of VM 0 changes from 1 to 0
+At time:2018-10-29 22:03:53.060661 -0500 CDT$$ status of VM 0 changes from 1 to 0
+At time:2018-10-29 22:04:13.867809 -0500 CDT$$ status of VM 0 changes from 1 to 0
+At time:2018-10-29 22:05:21.648485 -0500 CDT$$ status of VM 0 changes from 1 to 0
+At time:2018-10-29 22:05:44.174935 -0500 CDT$$ status of VM 0 changes from 1 to 0

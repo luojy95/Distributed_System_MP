@@ -1,0 +1,83 @@
+At time:2018-10-08 00:59:07.956260191 -0500 CDT$$ status of VM 8 changes from 1 to 0
+At time:2018-10-08 01:01:28.846850874 -0500 CDT$$ status of VM 8 changes from 0 to 1
+At time:2018-10-08 01:01:28.686158212 -0500 CDT $$ VM 0 join the group
+At time:2018-10-08 01:01:27.509765358 -0500 CDT $$ VM 3 join the group
+At time:2018-10-08 01:01:27.872520147 -0500 CDT $$ VM 4 join the group
+At time:2018-10-08 01:01:28.641346899 -0500 CDT $$ VM 7 join the group
+At time:2018-10-08 01:01:28.493590968 -0500 CDT $$ VM 1 join the group
+At time:2018-10-08 01:01:27.612107005 -0500 CDT $$ VM 5 join the group
+At time:2018-10-08 01:01:27.008614426 -0500 CDT $$ VM 2 join the group
+At time:2018-10-08 01:01:26.266898956 -0500 CDT $$ VM 6 join the group
+At time:2018-10-08 01:01:30.656659225 -0500 CDT $$ VM 9 join the group
+At time:2018-10-08 01:01:39.190404605 -0500 CDT$$ status of VM 3 changes from 1 to 2
+At time:2018-10-08 01:01:39.298538745 -0500 CDT$$ status of VM 3 changes from 2 to 1
+At time:2018-10-08 01:01:56.9214097 -0500 CDT$$ status of VM 3 changes from 1 to 2
+At time:2018-10-08 01:01:57.293523781 -0500 CDT$$ status of VM 3 changes from 2 to 1
+At time:2018-10-08 01:02:01.784175846 -0500 CDT$$ status of VM 3 changes from 1 to 0
+At time:2018-10-08 01:02:04.362353943 -0500 CDT$$ status of VM 0 changes from 1 to 0
+At time:2018-10-08 01:03:37.971539244 -0500 CDT$$ status of VM 0 changes from 0 to 1
+At time:2018-10-08 01:03:47.906007457 -0500 CDT$$ status of VM 2 changes from 1 to 0
+At time:2018-10-08 01:03:59.915845074 -0500 CDT $$ VM 9 join the group
+At time:2018-10-08 01:04:00.877559402 -0500 CDT $$ VM 0 join the group
+At time:2018-10-08 01:04:05.051691427 -0500 CDT $$ VM 7 join the group
+At time:2018-10-08 01:04:08.442927016 -0500 CDT $$ VM 6 join the group
+At time:2018-10-08 01:04:11.65907405 -0500 CDT $$ VM 5 join the group
+At time:2018-10-08 01:04:14.917053957 -0500 CDT $$ VM 4 join the group
+At time:2018-10-08 01:04:18.100256874 -0500 CDT $$ VM 3 join the group
+At time:2018-10-08 01:04:23.828537302 -0500 CDT $$ VM 2 join the group
+At time:2018-10-08 01:04:30.141452851 -0500 CDT $$ VM 1 join the group
+At time:2018-10-08 01:04:38.912569259 -0500 CDT$$ status of VM 1 changes from 1 to 2
+At time:2018-10-08 01:04:50.379587731 -0500 CDT$$ status of VM 1 changes from 2 to 1
+At time:2018-10-08 01:04:57.153369669 -0500 CDT$$ status of VM 6 changes from 1 to 2
+At time:2018-10-08 01:05:43.585194976 -0500 CDT$$ status of VM 0 changes from 1 to 0
+At time:2018-10-08 01:05:46.586401455 -0500 CDT$$ status of VM 1 changes from 1 to 0
+At time:2018-10-08 01:05:47.086594163 -0500 CDT$$ status of VM 2 changes from 1 to 0
+At time:2018-10-08 01:05:47.16478844 -0500 CDT$$ status of VM 3 changes from 1 to 0
+At time:2018-10-08 11:55:51.155381964 -0500 CDT$$ status of VM 8 changes from 1 to 0
+At time:2018-10-08 11:56:11.443474067 -0500 CDT $$ VM 3 join the group
+At time:2018-10-08 11:56:10.906406468 -0500 CDT $$ VM 4 join the group
+At time:2018-10-08 11:56:12.090341214 -0500 CDT $$ VM 0 join the group
+At time:2018-10-08 11:56:11.591615622 -0500 CDT $$ VM 1 join the group
+At time:2018-10-08 11:56:10.925771843 -0500 CDT $$ VM 2 join the group
+At time:2018-10-08 11:56:12.156017191 -0500 CDT$$ status of VM 8 changes from 0 to 1
+At time:2018-10-08 11:56:11.893968085 -0500 CDT $$ VM 6 join the group
+At time:2018-10-08 11:56:10.412158326 -0500 CDT $$ VM 5 join the group
+At time:2018-10-08 11:56:11.196053642 -0500 CDT $$ VM 7 join the group
+At time:2018-10-08 11:56:13.319206458 -0500 CDT $$ VM 9 join the group
+At time:2018-10-08 11:56:26.218395299 -0500 CDT$$ status of VM 3 changes from 1 to 2
+At time:2018-10-08 11:56:26.260495056 -0500 CDT$$ status of VM 3 changes from 2 to 1
+At time:2018-10-08 11:57:06.422085457 -0500 CDT$$ status of VM 4 changes from 1 to 0
+At time:2018-10-08 11:57:39.841164892 -0500 CDT$$ status of VM 4 changes from 0 to 1
+At time:2018-10-08 11:57:47.128294401 -0500 CDT$$ status of VM 4 changes from 1 to 2
+At time:2018-10-08 11:58:05.595291909 -0500 CDT$$ status of VM 4 changes from 2 to 1
+At time:2018-10-08 11:58:19.047181951 -0500 CDT$$ status of VM 6 changes from 1 to 0
+At time:2018-10-08 11:58:18.95111124 -0500 CDT$$ status of VM 5 changes from 1 to 0
+At time:2018-10-08 11:58:25.892995186 -0500 CDT$$ status of VM 7 changes from 1 to 0
+At time:2018-10-08 11:58:46.464335552 -0500 CDT$$ status of VM 4 changes from 1 to 0
+At time:2018-10-08 11:58:55.052172104 -0500 CDT$$ status of VM 4 changes from 0 to 1
+At time:2018-10-08 11:58:59.302156182 -0500 CDT$$ status of VM 5 changes from 0 to 1
+At time:2018-10-08 11:59:03.185835041 -0500 CDT$$ status of VM 6 changes from 0 to 1
+At time:2018-10-08 11:59:07.611596266 -0500 CDT$$ status of VM 7 changes from 0 to 1
+At time:2018-10-08 11:59:19.825311851 -0500 CDT$$ status of VM 0 changes from 1 to 0
+At time:2018-10-08 11:59:21.815453052 -0500 CDT$$ status of VM 1 changes from 1 to 0
+At time:2018-10-08 11:59:22.826550129 -0500 CDT$$ status of VM 2 changes from 1 to 0
+At time:2018-10-08 12:03:20.239536556 -0500 CDT $$ VM 7 join the group
+At time:2018-10-08 12:03:20.957880185 -0500 CDT $$ VM 0 join the group
+At time:2018-10-08 12:03:19.644080262 -0500 CDT $$ VM 5 join the group
+At time:2018-10-08 12:03:19.217566816 -0500 CDT $$ VM 1 join the group
+At time:2018-10-08 12:03:19.696574125 -0500 CDT $$ VM 3 join the group
+At time:2018-10-08 12:03:20.722960095 -0500 CDT $$ VM 6 join the group
+At time:2018-10-08 12:03:20.221477484 -0500 CDT $$ VM 4 join the group
+At time:2018-10-08 12:03:19.246698207 -0500 CDT $$ VM 2 join the group
+At time:2018-10-08 12:03:24.768643912 -0500 CDT $$ VM 9 join the group
+At time:2018-10-08 12:03:54.360239532 -0500 CDT$$ status of VM 4 changes from 1 to 0
+At time:2018-10-08 12:05:04.388794509 -0500 CDT$$ status of VM 5 changes from 1 to 0
+At time:2018-10-08 12:05:04.350975603 -0500 CDT$$ status of VM 6 changes from 1 to 0
+At time:2018-10-08 12:05:06.170530181 -0500 CDT$$ status of VM 7 changes from 1 to 0
+At time:2018-10-08 12:05:42.898016698 -0500 CDT$$ status of VM 4 changes from 0 to 1
+At time:2018-10-08 12:05:50.282367163 -0500 CDT$$ status of VM 5 changes from 0 to 1
+At time:2018-10-08 12:05:57.120133028 -0500 CDT$$ status of VM 6 changes from 0 to 1
+At time:2018-10-08 12:06:07.83631817 -0500 CDT$$ status of VM 7 changes from 0 to 1
+At time:2018-10-08 12:06:41.279359693 -0500 CDT$$ status of VM 9 changes from 1 to 0
+At time:2018-10-08 12:08:02.31294052 -0500 CDT$$ status of VM 3 changes from 1 to 0
+At time:2018-10-08 14:13:54.071219211 -0500 CDT$$ status of VM 2 changes from 1 to 0

@@ -1,0 +1,41 @@
+README
+
+This mp1 contains the following folder,
+
+-rpc_implementation: including all codes for the distributed grep system
+    -mygrep:contains the class for grep class
+    -rpc_client.go: client that send request to all servers and fetch back the result
+    -start_server.go: server that accept and process the request, generate and send the result back to client.
+
+-random log file: generate random log files for unit test
+    -generate_log.go: generate log files with certain patterns.
+    
+To start this system, 
+Step 1:
+go to rpc_implementation and run command "go run start_server.go" in each VM to initialize server, the ip_addr of each VM will display after being intiated successfully.
+
+Step 2:
+In any VM, run command "go run rpc_client.go" with the following flag to start grep command
+Input flag
+
+-c: request of grep command, default -c "grep 0"
+
+-a: options of grep command, default "-c"
+
+-o: if "y", will output to terminal, "n" will direct the result to txt file, default "y"
+
+-f: prefix of file name, default "./result"
+
+-s: suffix (or type) of file to grep, default ".log"
+
+-p: path to save the result, default "./result"
+
+-sf, file name of result default "result_vm"
+
+Sample usage:
+
+If we grep result matched 0 from vm1.log, vm2.log..vm10.log located in "~/logs/" in each vm, and then save the matched line with number in ./result/result_vm1.txt, ./result/result_vm2...
+
+we will run
+
+go run rpc_client.go -c "grep app" -a "-Hn" -o "n" -f "~/logs/vm" -s ".log" -p "./result" -sf "result_vm"

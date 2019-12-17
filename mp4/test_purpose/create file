@@ -1,0 +1,11 @@
+rm * && dd if=/dev/urandom of=1 bs=500000 count=2 &&
+dd if=/dev/urandom of=2 bs=600000 count=2 &&
+dd if=/dev/urandom of=3 bs=700000 count=2 &&
+dd if=/dev/urandom of=4 bs=800000 count=2 &&
+dd if=/dev/urandom of=5 bs=900000 count=2 &&
+dd if=/dev/urandom of=6 bs=1000000 count=2 &&
+dd if=/dev/urandom of=7 bs=1100000 count=2 &&
+dd if=/dev/urandom of=8 bs=1200000 count=2 &&
+dd if=/dev/urandom of=9 bs=1300000 count=2 &&
+dd if=/dev/urandom of=10 bs=1400000 count=2 &&
+dd if=/dev/urandom of=11 bs=100000 count=2

@@ -1,0 +1,32 @@
+README
+
+This mp2 contains the following folder,
+
+-mp2: contains the main file, udp_detection.go and README
+
+-result: includes all the generated local files for the system (i.e result_vmq.txt). Need to rename or delete the log file if don't need the previous history. 
+    
+To start this system, 
+Step 1:
+Stay at this folder and run command "go run udp_detection.go" for all the nodes including introducer.
+
+Step 2:
+Except introducer, run command "join" and then the introducer will automatically build the whole network and run it.
+
+Step 3:
+If you want one machine to leave the network, run command "leave". The left node won't terminated, you can rejoin the network whenever you want by typing "join".
+
+Step 4:
+If you want one machine to exit without telling others (fail), you can directly use Crrl+C (SIGINT) or run command "exit". The failed node will terminated itself so you need to run "go run udp_detection.go" and "join" again to rejoin the network
+
+Command: 
+
+1. "mlist": 
+	During anytime, you can type in "mlist" to print out the member lists for that node contained with the status and the corresponding time. (status 0: fail; status 1: alive; status 2: leave)
+
+2. "nlist":
+	During anytime, you can type in "nlist" to print out the neighbor lists for that node.
+
+Sample usage:
+
+If we have a four-node network, excute Step 1 and 2 firstly to set up the network. Type in "leave" at node i and that node will voluntarily leave. Type in "exit" or Crtl+C at node i will fail that node.

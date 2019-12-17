@@ -1,0 +1,20 @@
+# func 0: Simply concatenate; 1: Simply calculate the length
+layer: 1
+tasks:
+  - task0:
+    funk: 0 # Indentity 
+    op: -1
+    tar:
+    file: movies.csv 
+  - task1:
+    funk: 3 # split and emit
+    op:
+    tar:
+    file:
+  - task2:
+    funk: 4 # MapAggregate
+    op: -1 
+    tar: 
+    file:
+
+

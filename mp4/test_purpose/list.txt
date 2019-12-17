@@ -1,0 +1,6 @@
+1.txt
+client.go
+file_transfer.go
+list.txt
+sdfs.go
+server.go

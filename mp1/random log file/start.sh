@@ -1,0 +1,10 @@
+go run generate_log.go -c 0 -n "log1.log" -l 600
+go run generate_log.go -c 1 -n "log2.log" -l 600
+go run generate_log.go -c 5 -n "log3.log" -l 600
+go run generate_log.go -c 10 -n "log4.log" -l 600
+go run generate_log.go -c 25 -n "log5.log" -l 600
+go run generate_log.go -c 70 -n "log6.log" -l 600
+go run generate_log.go -c 100 -n "log7.log" -l 600
+go run generate_log.go -c 250 -n "log8.log" -l 600
+go run generate_log.go -c 400 -n "log9.log" -l 600
+go run generate_log.go -c 600 -n "log10.log" -l 600

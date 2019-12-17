@@ -1,0 +1,60 @@
+README
+
+This mp3 contains the following folder,
+
+-mp3: contains the main file, sdfs.go and README
+
+-result: includes all the generated local files for the system (i.e result_vmq.txt). Need to rename or delete the log file if don't need the previous history. 
+
+-local_dir: includes all the local file. Only the file in this folder can be put (added) to the sdfs file system
+
+-sdfs_dir: includes all the sdfs file. When restart or rejoin, all the sdfs will be removed.
+    
+To start this system, 
+Step 1:
+Stay at this folder and run command "go run sdfs.go" for all the nodes including master.
+
+Step 2:
+Except master, run command "join" and then the introducer will automatically build the whole network and run it.
+
+Step 3:
+Run command "exit" or simply Ctrl+C will kill the running node.
+
+Command 1:
+If you want one machine to leave the network, run command "leave". The left node won't terminated, you can rejoin the network whenever you want by typing "join".
+
+Command 2:
+If you want one machine to exit without telling others (fail), you can directly use Crrl+C (SIGINT) or run command "exit". The failed node will terminated itself so you need to run "go run udp_detection.go" and "join" again to rejoin the network
+
+Command: 
+
+1. "mlist": 
+	During anytime, you can type in "mlist" to print out the member lists for that node contained with the status and the corresponding time. (status 0: fail; status 1: alive; status 2: leave)
+
+2. "nlist":
+	During anytime, you can type in "nlist" to print out the neighbor lists for that node.
+
+3. "id":
+	During anytime, you can type in "id" to get the VM id for the current machine.
+
+4. "put xxx yyy"
+	xxx: the name for the local file name, must be stored in the local_dir; otherwise a warning info will be printed out.
+	yyy: the name for the sdfs file that we want the system to store.
+	This command will add the local file: xxx to the system and store it as sdfs file: yyy
+
+5. "get yyy xxx"
+	yyy: the name for the sdfs file name, if not existed a warning info will be printed out.
+	xxx: the name for the local file name, will be stored in the local_dir.
+
+6. "ls yyy"
+	List all the VMs that currently stores sdfs file yyy, typically use at master.
+
+7. "delete yyy"
+	Delete the sdfs file yyy and remove it from the sdfs system.
+
+8. "store"
+	List all the sdfs files currently stored at this machine.
+
+9. "get-versions yyy num xxx"
+	gets all the last num versions of the sdfs file yyy and store it as xxx into the local_dir. (deliminator "#==================#" will be used for segamentation purpose)
+
